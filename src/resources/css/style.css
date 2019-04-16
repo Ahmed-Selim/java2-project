@@ -1,0 +1,17 @@
+.tab-pane {
+	-fx-tab-min-height: 100px;
+	-fx-tab-min-width: 85px;
+}
+
+.tab *.tab-label {
+    -fx-rotate: 90;
+}
+
+.btn-primary {
+	-fx-background-color: dodgerblue ;
+}
+
+.btn-primary:hover {
+	-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+	-fx-background-insets: 0 0 -1 0, 0, 1, 2;
+}
